@@ -1,0 +1,173 @@
+﻿@model DealershipViewModel;
+@{
+	ViewData["Title"] = "Concessionárias";
+	var dealerships = ViewData["Dealerships"] as List<DealershipViewModel> ?? new List<DealershipViewModel>();
+}
+<body>
+	<div class="container py-5">
+		<div class="row justify-content-center mb-4">
+			<div class="col-lg-8">
+				<div class="card shadow border-0 card-radius">
+					<div class="card-body px-4 py-4">
+						<div class="d-flex align-items-center justify-content-between mb-3">
+							<h3 class="fw-bold mb-0 text-concessionaria-title">Concessionárias</h3>
+							<button class="btn btn-primary rounded-pill fw-semibold d-flex align-items-center gap-2"
+									data-bs-toggle="modal" data-bs-target="#modalNovaConcessionaria">
+								<i class="bi bi-plus-lg"></i> Adicionar nova
+							</button>
+						</div>
+						<div class="table-responsive table-radius">
+							<table class="table table-hover align-middle">
+								<thead>
+									<tr>
+										<th>Nome</th>
+										<th>Endereço</th>
+										<th>Telefone</th>
+										<th>E-mail</th>
+										<th>Capacidade</th>
+									</tr>
+								</thead>
+								<tbody>
+									@{
+										if (dealerships != null && dealerships.Count > 0)
+										{
+											foreach (var c in dealerships)
+											{
+												<tr>
+													<td>@c.Name</td>
+													<td>@c.Address</td>
+													<td>@c.Phone</td>
+													<td>@c.Email</td>
+													<td>@c.MaxCapacity</td>
+												</tr>
+											}
+										}
+										else
+										{
+
+											<tr>
+												<td colspan="5" class="text-center text-secondary py-4">
+													Nenhuma concessionária cadastrada.
+												</td>
+											</tr>
+
+										}
+
+									}
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal Nova Concessionária -->
+		<div class="modal fade" id="modalNovaConcessionaria" tabindex="-1" aria-labelledby="modalNovaConcessionariaLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content modal-radius">
+					<div class="modal-header border-0 pb-0">
+						<h5 class="modal-title text-primary fw-bold w-100 text-center" id="modalNovaConcessionariaLabel">Adicionar Concessionária</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+					</div>
+					<div class="modal-body px-4">
+						<form asp-action="Create" asp-controller="Dealership" method="post" id="formNovaConcessionaria" autocomplete="off">
+							@Html.AntiForgeryToken()
+							<div class="mb-3">
+								<label for="Name" class="form-label fw-semibold text-primary">Nome</label>
+								<input asp-for="Name" type="text" class="form-control rounded-3" id="Name" maxlength="100" required placeholder="Digite o nome da concessionária" />
+								<span asp-validation-for="Name" class="text-danger"></span>
+							</div>
+							<div class="mb-3">
+								<label for="Address" class="form-label fw-semibold text-primary">Endereço</label>
+								<input asp-for="Address" type="text" class="form-control rounded-3" id="Address" maxlength="255" required placeholder="Rua, número, bairro" />
+								<span asp-validation-for="Address" class="text-danger"></span>
+							</div>
+							<div class="mb-3">
+								<label for="City" class="form-label fw-semibold text-primary">Cidade</label>
+								<input asp-for="City" type="text" class="form-control rounded-3" id="City" maxlength="50" required placeholder="Digite a cidade" />
+								<span asp-validation-for="City" class="text-danger"></span>
+							</div>
+							<div class="mb-3">
+								<label for="State" class="form-label fw-semibold text-primary">Estado</label>
+								<input asp-for="State" type="text" class="form-control rounded-3" id="State" maxlength="50" required placeholder="Digite o estado" />
+								<span asp-validation-for="State" class="text-danger"></span>
+							</div>
+							<div class="mb-3">
+								<label for="ZipCode" class="form-label fw-semibold text-primary">CEP</label>
+								<input asp-for="ZipCode" type="text" class="form-control rounded-3" id="ZipCode" maxlength="9" required placeholder="Ex: 12345-678" />
+								<span asp-validation-for="ZipCode" class="text-danger"></span>
+							</div>
+							<div class="mb-3">
+								<label for="Phone" class="form-label fw-semibold text-primary">Telefone</label>
+								<input asp-for="Phone" type="text" class="form-control rounded-3" id="Phone" maxlength="20" required placeholder="Ex: (11) 98765-4321" />
+								<span asp-validation-for="Phone" class="text-danger"></span>
+							</div>
+							<div class="mb-3">
+								<label for="Email" class="form-label fw-semibold text-primary">E-mail</label>
+								<input asp-for="Email" type="email" class="form-control rounded-3" id="Email" maxlength="100" required placeholder="Ex: contato@concessionaria.com" />
+								<span asp-validation-for="Email" class="text-danger"></span>
+							</div>
+							<div class="mb-3">
+								<label for="MaxCapacity" class="form-label fw-semibold text-primary">Capacidade Máxima de Veículos</label>
+								<input asp-for="MaxCapacity" type="number" class="form-control rounded-3" id="MaxCapacity" min="1" required placeholder="Digite a capacidade" />
+								<span asp-validation-for="MaxCapacity" class="text-danger"></span>
+							</div>
+							<button type="submit" class="btn btn-primary w-100 py-2 rounded-pill fw-semibold mt-2 btn-save-concessionaria">
+								Salvar
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		@section Scripts {
+			<script>
+				$(document).ready(function() {
+						// Máscara CEP
+						$('#ZipCode').mask('00000-000');
+					});
+				$(document).ready(function() {
+					//Máscara telefone
+					$('#Phone').mask('(00) 00000-0000');
+				});
+				$(function() {
+					// Ao sair do campo CEP , dispara a consulta
+					$('#ZipCode').on('blur', function() {
+						var cep = $(this).val();
+						if (cep.length === 9) { // formato 00000-000
+							$.post('/dealership/Cep', { cep: cep }, function(response) {
+								console.log(response);
+								console.log(response.data);
+								if (response.success) {
+									$('#Address').val(response.data.logradouro);
+									$('#City').val(response.data.localidade);
+									$('#State').val(response.data.uf);
+								} else {
+									alert(response.message || 'CEP não encontrado!');
+								}
+							});
+						}
+					});
+				});
+			</script>
+			@{
+				await Html.RenderPartialAsync("_ValidationScriptsPartial");
+			}
+		}
+	</div>
+</body>
+
+<style>
+	.text-concessionaria-title {
+		color: #004e64;
+	}
+
+	.btn-save-concessionaria {
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+		border-radius: 50rem !important;
+		font-weight: 600;
+	}
+</style>

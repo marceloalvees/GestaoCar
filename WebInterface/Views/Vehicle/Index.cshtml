@@ -1,0 +1,148 @@
+﻿@model VehicleViewModel;
+@{
+	ViewData["Title"] = "Veículos";
+	var vehicles = ViewData["Vehicles"] as List<VehicleViewModel> ?? new List<VehicleViewModel>();
+	var manufacturers = ViewData["Manufacturers"] as List<ManufacturerViewModel> ?? new List<ManufacturerViewModel>();
+}
+<div class="container py-5">
+	<div class="row justify-content-center mb-4">
+		<div class="col-lg-8">
+			<div class="card shadow border-0 card-radius">
+				<div class="card-body px-4 py-4">
+					<div class="d-flex align-items-center justify-content-between mb-3">
+						<h3 class="fw-bold mb-0 title-veiculos">Veículos</h3>
+						<button class="btn btn-primary rounded-pill fw-semibold d-flex align-items-center gap-2"
+								data-bs-toggle="modal" data-bs-target="#modalNovoVeiculo">
+							<i class="bi bi-plus-lg"></i> Adicionar novo
+						</button>
+					</div>
+					@if (ViewData["Error"] != null || TempData["Error"] != null)
+					{
+						<div class="custom-alert alert-danger mb-3 d-flex align-items-center gap-2">
+							<i class="bi bi-exclamation-circle-fill"></i>
+							<span>@(ViewData["Error"] ?? TempData["Error"])</span>
+						</div>
+					}
+					<div class="table-responsive table-radius">
+						<table class="table table-hover align-middle">
+							<thead>
+								<tr>
+									<th>Modelo</th>
+									<th>Ano</th>
+									<th>Preço</th>
+									<th>Fabricante</th>
+									<th>Tipo</th>
+									<th>Descrição</th>
+								</tr>
+							</thead>
+							<tbody>
+								@if (vehicles != null && vehicles.Count > 0)
+								{
+									foreach (var v in vehicles)
+									{
+										<tr>
+											<td>@v.Model</td>
+											<td>@v.ManuFacturingYear</td>
+											<td>@v.Price.ToString()</td>
+											<td>@v.ManufacturerName</td>
+											<td>@v.Type</td>
+											<td>@v.Description</td>
+										</tr>
+									}
+								}
+								else
+								{
+									<tr>
+										<td colspan="6" class="text-center text-secondary py-4">
+											Nenhum veículo cadastrado.
+										</td>
+									</tr>
+								}
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal Novo Veículo -->
+	<div class="modal fade" id="modalNovoVeiculo" tabindex="-1" aria-labelledby="modalNovoVeiculoLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content modal-radius">
+				<div class="modal-header border-0 pb-0">
+					<h5 class="modal-title text-primary fw-bold w-100 text-center" id="modalNovoVeiculoLabel">Adicionar Veículo</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+				</div>
+				<div class="modal-body px-4">
+					<form asp-action="Create" asp-controller="Vehicle" method="post" id="formNovoVeiculo" autocomplete="off">
+						@Html.AntiForgeryToken()
+						<div class="mb-3">
+							<label for="Model" class="form-label fw-semibold text-primary">Nome</label>
+							<input asp-for="Model" type="text" class="form-control rounded-3" id="Model" maxlength="100" required placeholder="Digite o modelo do Veículo." />
+							<span asp-validation-for="Model" class="text-danger"></span>
+						</div>
+						<div class="mb-3">
+							<label for="ManuFacturingYear" class="form-label fw-semibold text-primary">Ano de Fabricação</label>
+							<input asp-for="ManuFacturingYear" type="number" class="form-control rounded-3" id="ManuFacturingYear" min="1900" maxlength="@DateTime.Now.Year" required placeholder="Digite o modelo do veículo" />
+							<span asp-validation-for="ManuFacturingYear" class="text-danger"></span>
+						</div>
+						<div class="mb-3">
+							<label for="Price" class="form-label fw-semibold text-primary">Preço</label>
+							<input asp-for="Price" type="number" step="0.10" class="form-control rounded-3" id="Price" maxlength="50" required placeholder="Digite o preço" />
+							<span asp-validation-for="Price" class="text-danger"></span>
+						</div>
+						<div class="mb-3">
+							<label for="ManufacturerName" class="form-label fw-semibold text-primary">Fabricante</label>
+							<select asp-for="ManufacturerName" id="ManufacturerName" class="form-select rounded-3" required>
+								<option value="">Selecione o Fabricante</option>
+								@foreach (var manufacturer in manufacturers)
+								{
+									<option value="@manufacturer.Name">@manufacturer.Name</option>
+								}
+							</select>
+							<span asp-validation-for="ManufacturerName" class="text-danger"></span>
+
+						</div>
+						<div class="mb-3">
+							<label for="Type" class="form-label fw-semibold text-primary">Tipo de Veículo</label>
+							<select asp-for="Type" id="Type" class="form-select rounded-3" required>
+								<option value="">Selecione o Tipo</option>
+								<option value="Car">Carro</option>
+								<option value="Motorcycle">Moto</option>
+								<option value="Truck">Caminhão</option>
+							</select>
+							<span asp-validation-for="Type" class="text-danger"></span>
+						</div>
+						<div class="mb-3">
+							<label for="Description" class="form-label fw-semibold text-primary">Descrição</label>
+							<input asp-for="Description" type="text" class="form-control rounded-3" id="Description" maxlength="400" placeholder="Digite a Descrição." />
+						</div>
+						<button type="submit" class="btn btn-primary w-100 py-2 rounded-pill fw-semibold mt-2 btn-save-concessionaria">
+							Salvar
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+	}
+</div>
+<style>
+	.title-veiculos {
+		color: #004e64;
+	}
+
+	.btn-save-veiculo {
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+		border-radius: 50rem !important;
+		font-weight: 600;
+	}
+</style>

@@ -1,0 +1,1593 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\controllers\\manufacturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\controllers\\manufacturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\controllers\\dealershipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\controllers\\dealershipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD36F5EA-0D75-4330-BDE3-4789C8244012}|Domain\\Domain.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD36F5EA-0D75-4330-BDE3-4789C8244012}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\views\\manufacturer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\views\\manufacturer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\views\\sale\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\views\\sale\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\views\\vehicle\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\views\\vehicle\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD36F5EA-0D75-4330-BDE3-4789C8244012}|Domain\\Domain.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\domain\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD36F5EA-0D75-4330-BDE3-4789C8244012}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\models\\vehicleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\models\\vehicleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\views\\user\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\views\\user\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\dependencyinjectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\dependencyinjectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\infrastructure\\identity\\applicationuser .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\identity\\applicationuser .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\application\\services\\excelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|solutionrelative:application\\services\\excelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\application\\interfaces\\iexcelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iexcelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestaoCar/True/SqlTable/dbo.Sales.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\infrastructure\\repositories\\salerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\salerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD36F5EA-0D75-4330-BDE3-4789C8244012}|Domain\\Domain.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\domain\\interfaces\\isalerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD36F5EA-0D75-4330-BDE3-4789C8244012}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\isalerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\application\\services\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|solutionrelative:application\\services\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD36F5EA-0D75-4330-BDE3-4789C8244012}|Domain\\Domain.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\domain\\entities\\dealership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD36F5EA-0D75-4330-BDE3-4789C8244012}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\dealership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD36F5EA-0D75-4330-BDE3-4789C8244012}|Domain\\Domain.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\domain\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD36F5EA-0D75-4330-BDE3-4789C8244012}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\application\\services\\vehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|solutionrelative:application\\services\\vehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestaoCar/True/SqlTable/dbo.AspNetRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestaoCar/True/SqlTable/dbo.AspNetUserRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestaoCar/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD36F5EA-0D75-4330-BDE3-4789C8244012}|Domain\\Domain.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\domain\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD36F5EA-0D75-4330-BDE3-4789C8244012}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\infrastructure\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestaoCar/True/SqlTable/dbo.Clients.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\infrastructure\\repositories\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\infrastructure\\repositories\\dealershiprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\dealershiprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestaoCar/True/SqlTable/dbo.Vehicles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\application\\interfaces\\imanufacturerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|solutionrelative:application\\interfaces\\imanufacturerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\application\\interfaces\\ivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\application\\interfaces\\isaleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|solutionrelative:application\\interfaces\\isaleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\application\\dto\\saledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|solutionrelative:application\\dto\\saledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD36F5EA-0D75-4330-BDE3-4789C8244012}|Domain\\Domain.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\domain\\interfaces\\idealershiprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD36F5EA-0D75-4330-BDE3-4789C8244012}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\idealershiprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD36F5EA-0D75-4330-BDE3-4789C8244012}|Domain\\Domain.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\domain\\interfaces\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD36F5EA-0D75-4330-BDE3-4789C8244012}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\infrastructure\\repositories\\manufacturerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\manufacturerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\models\\saleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\models\\saleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\views\\dealership\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\views\\dealership\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\models\\newvehicleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\models\\newvehicleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\models\\dealershipviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\models\\dealershipviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\infrastructure\\entityconfiguration\\saleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\entityconfiguration\\saleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\infrastructure\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD36F5EA-0D75-4330-BDE3-4789C8244012}|Domain\\Domain.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\domain\\entities\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD36F5EA-0D75-4330-BDE3-4789C8244012}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\application\\dto\\cepinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|solutionrelative:application\\dto\\cepinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\application\\dto\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|solutionrelative:application\\dto\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\application\\services\\cepservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|solutionrelative:application\\services\\cepservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\application\\interfaces\\icepservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|solutionrelative:application\\interfaces\\icepservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\application\\dto\\manufacturerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|solutionrelative:application\\dto\\manufacturerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\application\\interfaces\\idealershipservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|solutionrelative:application\\interfaces\\idealershipservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\application\\services\\manufacturerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|solutionrelative:application\\services\\manufacturerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\application\\dto\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|solutionrelative:application\\dto\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD36F5EA-0D75-4330-BDE3-4789C8244012}|Domain\\Domain.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\domain\\entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD36F5EA-0D75-4330-BDE3-4789C8244012}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\infrastructure\\entityconfiguration\\manufacturerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\entityconfiguration\\manufacturerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{09884E1D-AEFE-40F5-AC48-988B7AC96761}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\infrastructure\\migrations\\20250521002350_initial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20250521002350_initial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\infrastructure\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD36F5EA-0D75-4330-BDE3-4789C8244012}|Domain\\Domain.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\domain\\enums\\accesslevelenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD36F5EA-0D75-4330-BDE3-4789C8244012}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\accesslevelenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\infrastructure\\entityconfiguration\\clientconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\entityconfiguration\\clientconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestaoCar/True/SqlTable/dbo.__EFMigrationsHistory.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\webinterface\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DCC53E92-68CA-4ED0-A7CE-FC745A1F1426}|WebInterface\\WebInterface.csproj|solutionrelative:webinterface\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\infrastructure\\migrations\\20250521002350_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20250521002350_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\infrastructure\\entityconfiguration\\vehicleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\entityconfiguration\\vehicleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\infrastructure\\entityconfiguration\\dealershipconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\entityconfiguration\\dealershipconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|c:\\users\\tgt\\pessoal project\\intelectah\\gestaocar\\infrastructure\\migrations\\20250521003306_initial-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D9A3DD-5290-4944-BF3E-0FCA3A786B9B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20250521003306_initial-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Entities\\Customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\Customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 27,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManufacturerController.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Controllers\\ManufacturerController.cs",
+              "RelativeDocumentMoniker": "WebInterface\\Controllers\\ManufacturerController.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Controllers\\ManufacturerController.cs",
+              "RelativeToolTip": "WebInterface\\Controllers\\ManufacturerController.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAwwCgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T11:20:47.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Entities\\Client.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Client.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Entities\\Client.cs",
+              "RelativeToolTip": "Domain\\Entities\\Client.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAADwv1UAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T23:36:42.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "WebInterface\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "WebInterface\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwEMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T11:22:48.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SaleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Repositories\\SaleRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\SaleRepository.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Repositories\\SaleRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\SaleRepository.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwDEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T23:17:46.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Program.cs",
+              "RelativeDocumentMoniker": "WebInterface\\Program.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Program.cs",
+              "RelativeToolTip": "WebInterface\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T00:01:01.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VehicleController.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Controllers\\VehicleController.cs",
+              "RelativeDocumentMoniker": "WebInterface\\Controllers\\VehicleController.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Controllers\\VehicleController.cs",
+              "RelativeToolTip": "WebInterface\\Controllers\\VehicleController.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAuwLMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T00:16:16.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VehicleViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Models\\VehicleViewModel.cs",
+              "RelativeDocumentMoniker": "WebInterface\\Models\\VehicleViewModel.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Models\\VehicleViewModel.cs",
+              "RelativeToolTip": "WebInterface\\Models\\VehicleViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T10:23:26.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DealershipController.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Controllers\\DealershipController.cs",
+              "RelativeDocumentMoniker": "WebInterface\\Controllers\\DealershipController.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Controllers\\DealershipController.cs",
+              "RelativeToolTip": "WebInterface\\Controllers\\DealershipController.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAmwKEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T11:22:22.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebInterface\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebInterface\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T23:19:18.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SaleController.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Controllers\\SaleController.cs",
+              "RelativeDocumentMoniker": "WebInterface\\Controllers\\SaleController.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Controllers\\SaleController.cs",
+              "RelativeToolTip": "WebInterface\\Controllers\\SaleController.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAkwA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T00:15:51.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebInterface\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebInterface\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAuwCoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T17:12:58.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Models\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "WebInterface\\Models\\UserViewModel.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Models\\UserViewModel.cs",
+              "RelativeToolTip": "WebInterface\\Models\\UserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T17:41:41.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebInterface\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "WebInterface\\Views\\User\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T00:03:52.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebInterface\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "WebInterface\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAowMwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T00:33:21.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\Sale\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebInterface\\Views\\Sale\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\Sale\\Index.cshtml",
+              "RelativeToolTip": "WebInterface\\Views\\Sale\\Index.cshtml",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAALkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T12:12:26.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\User\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "WebInterface\\Views\\User\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\User\\AccessDenied.cshtml",
+              "RelativeToolTip": "WebInterface\\Views\\User\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T18:45:49.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\Vehicle\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebInterface\\Views\\Vehicle\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\Vehicle\\Index.cshtml",
+              "RelativeToolTip": "WebInterface\\Views\\Vehicle\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T10:25:09.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebInterface\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebInterface\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACsAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T23:27:16.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "WebInterface\\Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "WebInterface\\Views\\User\\Register.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T23:19:41.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Entities\\Sale.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Sale.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Entities\\Sale.cs",
+              "RelativeToolTip": "Domain\\Entities\\Sale.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwB4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T15:29:28.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SaleService.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Services\\SaleService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\SaleService.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Services\\SaleService.cs",
+              "RelativeToolTip": "Application\\Services\\SaleService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwEkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T23:20:31.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DependencyInjectionConfig.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\DependencyInjectionConfig.cs",
+              "RelativeDocumentMoniker": "WebInterface\\DependencyInjectionConfig.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\DependencyInjectionConfig.cs",
+              "RelativeToolTip": "WebInterface\\DependencyInjectionConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T14:39:02.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApplicationUser .cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Identity\\ApplicationUser .cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Identity\\ApplicationUser .cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Identity\\ApplicationUser .cs",
+              "RelativeToolTip": "Infrastructure\\Identity\\ApplicationUser .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T01:06:49.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IExcelService.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Interfaces\\IExcelService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IExcelService.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Interfaces\\IExcelService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IExcelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T12:05:50.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ExcelService.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Services\\ExcelService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ExcelService.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Services\\ExcelService.cs",
+              "RelativeToolTip": "Application\\Services\\ExcelService.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAcwJkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T11:55:18.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "dbo.Sales [Dados]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestaoCar/True/SqlTable/dbo.Sales.sql",
+              "ToolTip": "dbo.Sales [Dados]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-26T14:16:54.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Dealership.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Entities\\Dealership.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Dealership.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Entities\\Dealership.cs",
+              "RelativeToolTip": "Domain\\Entities\\Dealership.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA2wBgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:49:06.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ISaleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Interfaces\\ISaleRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\ISaleRepository.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Interfaces\\ISaleRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\ISaleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T23:19:43.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Entities\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Entities\\Vehicle.cs",
+              "RelativeToolTip": "Domain\\Entities\\Vehicle.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA0wBEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T10:58:56.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "VehicleService.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Services\\VehicleService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\VehicleService.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Services\\VehicleService.cs",
+              "RelativeToolTip": "Application\\Services\\VehicleService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T10:56:48.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "dbo.AspNetRoles [Dados]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestaoCar/True/SqlTable/dbo.AspNetRoles.sql",
+              "ToolTip": "dbo.AspNetRoles [Dados]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-26T13:55:19.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "dbo.AspNetUserRoles [Dados]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestaoCar/True/SqlTable/dbo.AspNetUserRoles.sql",
+              "ToolTip": "dbo.AspNetUserRoles [Dados]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-26T13:54:49.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "dbo.AspNetUsers [Dados]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestaoCar/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Dados]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-26T13:54:25.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "dbo.Clients [Dados]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestaoCar/True/SqlTable/dbo.Clients.sql",
+              "ToolTip": "dbo.Clients [Dados]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-26T13:50:30.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Interfaces\\IClientRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IClientRepository.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Interfaces\\IClientRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IClientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T23:14:41.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Repositories\\ClientRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ClientRepository.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Repositories\\ClientRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\ClientRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T23:09:47.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "VehicleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Repositories\\VehicleRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\VehicleRepository.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Repositories\\VehicleRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\VehicleRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAvwDMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T13:39:05.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DealershipRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Repositories\\DealershipRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\DealershipRepository.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Repositories\\DealershipRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\DealershipRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:45:06.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "dbo.Vehicles [Dados]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestaoCar/True/SqlTable/dbo.Vehicles.sql",
+              "ToolTip": "dbo.Vehicles [Dados]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-26T13:41:27.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IManufacturerService.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Interfaces\\IManufacturerService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IManufacturerService.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Interfaces\\IManufacturerService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IManufacturerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T20:08:14.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IVehicleService.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Interfaces\\IVehicleService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IVehicleService.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Interfaces\\IVehicleService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IVehicleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:00:18.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ISaleService.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Interfaces\\ISaleService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\ISaleService.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Interfaces\\ISaleService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\ISaleService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAlwAwAAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T23:49:47.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "SaleDto.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Dto\\SaleDto.cs",
+              "RelativeDocumentMoniker": "Application\\Dto\\SaleDto.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Dto\\SaleDto.cs",
+              "RelativeToolTip": "Application\\Dto\\SaleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T23:22:28.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IDealershipRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Interfaces\\IDealershipRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IDealershipRepository.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Interfaces\\IDealershipRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IDealershipRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:47:20.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IVehicleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Interfaces\\IVehicleRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IVehicleRepository.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Interfaces\\IVehicleRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IVehicleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:36:11.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ManufacturerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Repositories\\ManufacturerRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ManufacturerRepository.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Repositories\\ManufacturerRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\ManufacturerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T19:43:39.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "SaleViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Models\\SaleViewModel.cs",
+              "RelativeDocumentMoniker": "WebInterface\\Models\\SaleViewModel.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Models\\SaleViewModel.cs",
+              "RelativeToolTip": "WebInterface\\Models\\SaleViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T10:23:42.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "WebInterface\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "WebInterface\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T11:12:42.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\Dealership\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebInterface\\Views\\Dealership\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\Dealership\\Index.cshtml",
+              "RelativeToolTip": "WebInterface\\Views\\Dealership\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T11:14:38.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebInterface\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebInterface\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-23T23:38:59.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "WebInterface\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "WebInterface\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T23:30:13.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "NewVehicleViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Models\\NewVehicleViewModel.cs",
+              "RelativeDocumentMoniker": "WebInterface\\Models\\NewVehicleViewModel.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Models\\NewVehicleViewModel.cs",
+              "RelativeToolTip": "WebInterface\\Models\\NewVehicleViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T10:10:42.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "DealershipViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Models\\DealershipViewModel.cs",
+              "RelativeDocumentMoniker": "WebInterface\\Models\\DealershipViewModel.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Models\\DealershipViewModel.cs",
+              "RelativeToolTip": "WebInterface\\Models\\DealershipViewModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T10:23:36.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "SaleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\EntityConfiguration\\SaleConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EntityConfiguration\\SaleConfiguration.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\EntityConfiguration\\SaleConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\EntityConfiguration\\SaleConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T23:47:08.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T00:02:24.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Manufacturer.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Entities\\Manufacturer.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Manufacturer.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Entities\\Manufacturer.cs",
+              "RelativeToolTip": "Domain\\Entities\\Manufacturer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T23:13:32.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "MessageDto.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Dto\\MessageDto.cs",
+              "RelativeDocumentMoniker": "Application\\Dto\\MessageDto.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Dto\\MessageDto.cs",
+              "RelativeToolTip": "Application\\Dto\\MessageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T20:04:18.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "CepInfo.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Dto\\CepInfo.cs",
+              "RelativeDocumentMoniker": "Application\\Dto\\CepInfo.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Dto\\CepInfo.cs",
+              "RelativeToolTip": "Application\\Dto\\CepInfo.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAIAywBQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T20:00:17.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "CepService.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Services\\CepService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\CepService.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Services\\CepService.cs",
+              "RelativeToolTip": "Application\\Services\\CepService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T20:02:32.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ICepService.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Interfaces\\ICepService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\ICepService.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Interfaces\\ICepService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\ICepService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T20:04:06.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ManufacturerDto.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Dto\\ManufacturerDto.cs",
+              "RelativeDocumentMoniker": "Application\\Dto\\ManufacturerDto.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Dto\\ManufacturerDto.cs",
+              "RelativeToolTip": "Application\\Dto\\ManufacturerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T19:28:22.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "IDealershipService.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Interfaces\\IDealershipService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IDealershipService.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Interfaces\\IDealershipService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IDealershipService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:54:48.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ManufacturerService.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Services\\ManufacturerService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ManufacturerService.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Services\\ManufacturerService.cs",
+              "RelativeToolTip": "Application\\Services\\ManufacturerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:26:29.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebInterface\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebInterface\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T19:01:38.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "VehicleDto.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Dto\\VehicleDto.cs",
+              "RelativeDocumentMoniker": "Application\\Dto\\VehicleDto.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Dto\\VehicleDto.cs",
+              "RelativeToolTip": "Application\\Dto\\VehicleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:40:02.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Entities\\Entity.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Entity.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Entities\\Entity.cs",
+              "RelativeToolTip": "Domain\\Entities\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:43:03.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ManufacturerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\EntityConfiguration\\ManufacturerConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EntityConfiguration\\ManufacturerConfiguration.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\EntityConfiguration\\ManufacturerConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\EntityConfiguration\\ManufacturerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T00:35:19.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "WebInterface\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "WebInterface\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T17:45:32.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "additional-methods.js",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeDocumentMoniker": "WebInterface\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeToolTip": "WebInterface\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ViewState": "AgIAADQCAAAAAAAAAAD4v0cCAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-25T12:31:27.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAewBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-20T23:58:02.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Application.csproj",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-24T18:59:10.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "WebInterface\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "WebInterface\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-24T00:54:03.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WebInterface\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WebInterface\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T17:32:14.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "20250521002350_initial.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Migrations\\20250521002350_initial.Designer.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250521002350_initial.Designer.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Migrations\\20250521002350_initial.Designer.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20250521002350_initial.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T01:22:17.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T01:22:30.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "favicon.ico - Icon [32x32, 32 bits, BMP]",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "WebInterface\\wwwroot\\favicon.ico",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\wwwroot\\favicon.ico - Icon [32x32, 32 bits, BMP]",
+              "RelativeToolTip": "WebInterface\\wwwroot\\favicon.ico - Icon [32x32, 32 bits, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-05-24T00:54:13.075Z",
+              "EditorCaption": " - Icon [32x32, 32 bits, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "bootstrap-reboot.css",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "RelativeDocumentMoniker": "WebInterface\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "RelativeToolTip": "WebInterface\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+              "ViewState": "AgIAALQAAAAAAAAAAAAwwMIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-23T23:42:48.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "AccessLevelEnum.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Enums\\AccessLevelEnum.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\AccessLevelEnum.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Enums\\AccessLevelEnum.cs",
+              "RelativeToolTip": "Domain\\Enums\\AccessLevelEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T00:12:18.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "dbo.__EFMigrationsHistory.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestaoCar/True/SqlTable/dbo.__EFMigrationsHistory.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestaoCar/True/SqlTable/dbo.__EFMigrationsHistory.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-21T23:10:57.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\appsettings.json",
+              "RelativeDocumentMoniker": "WebInterface\\appsettings.json",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\appsettings.json",
+              "RelativeToolTip": "WebInterface\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-21T00:41:53.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Customer.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Domain\\Entities\\Customer.cs",
+              "RelativeToolTip": "Domain\\Entities\\Customer.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T23:49:52.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "ClientConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\EntityConfiguration\\ClientConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EntityConfiguration\\ClientConfiguration.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\EntityConfiguration\\ClientConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\EntityConfiguration\\ClientConfiguration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T23:40:27.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "20250521002350_initial.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Migrations\\20250521002350_initial.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250521002350_initial.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Migrations\\20250521002350_initial.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20250521002350_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T00:23:50.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebInterface\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebInterface\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-21T00:25:17.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "20250521003306_initial-1.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Migrations\\20250521003306_initial-1.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250521003306_initial-1.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\Migrations\\20250521003306_initial-1.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20250521003306_initial-1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T00:33:06.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "DealershipConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\EntityConfiguration\\DealershipConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EntityConfiguration\\DealershipConfiguration.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\EntityConfiguration\\DealershipConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\EntityConfiguration\\DealershipConfiguration.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAWwC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T23:33:58.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "VehicleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\EntityConfiguration\\VehicleConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EntityConfiguration\\VehicleConfiguration.cs",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\Infrastructure\\EntityConfiguration\\VehicleConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\EntityConfiguration\\VehicleConfiguration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:34:15.43Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "7d2748d8-10af-44be-a382-5f6470445cca",
+        "Display": 1,
+        "X": 327,
+        "Y": 43,
+        "Width": 1882,
+        "Height": 636,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\Manufacturer\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebInterface\\Views\\Manufacturer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TGT\\Pessoal project\\Intelectah\\GestaoCar\\WebInterface\\Views\\Manufacturer\\Index.cshtml",
+              "RelativeToolTip": "WebInterface\\Views\\Manufacturer\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T11:14:28.672Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

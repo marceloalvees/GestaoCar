@@ -1,0 +1,64 @@
+﻿@model LoginViewModel
+@{
+	ViewData["Title"] = "Login";
+}
+<div class="d-flex justify-content-center align-items-center min-vh-100">
+	<div class="card shadow-lg border-0 custom-card-width">
+		<div class="card-body px-5 py-5">
+			<div class="text-center mb-4">
+				<span class="d-inline-block mb-3 bg-primary bg-opacity-10 p-3 rounded-circle">
+					<i class="bi bi-car-front-fill car-icon"></i>
+				</span>
+				<h3 class="fw-bold mb-0 brand-title">GestãoCar</h3>
+				<small class="text-secondary">Acesse sua conta</small>
+			</div>
+			<form method="post" asp-controller="User" asp-action="Login">
+				<div class="mb-3">
+					<label asp-for="Username" class="form-label fw-semibold text-primary">Username</label>
+					<input asp-for="Username" class="form-control form-control-lg rounded-3" placeholder="Digite seu Username" />
+					<span asp-validation-for="Username" class="text-danger"></span>
+				</div>
+				<div class="mb-3">
+					<label asp-for="Password" class="form-label fw-semibold text-primary">Senha</label>
+					<input asp-for="Password" class="form-control form-control-lg rounded-3" placeholder="Digite sua senha" />
+					<span asp-validation-for="Password" class="text-danger"></span>
+				</div>
+				<div class="d-flex justify-content-between align-items-center mb-3">
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" value="" id="rememberMe">
+						<label class="form-check-label text-secondary" for="rememberMe">
+							Lembrar-me
+						</label>
+					</div>
+					<a href="#" class="text-decoration-none small forgot-link">Esqueceu a senha?</a>
+				</div>
+				@if (!ViewData.ModelState.IsValid)
+				{
+					<div class="custom-alert mb-3">
+						<i class="bi bi-exclamation-circle-fill"></i>
+						<ul class="mb-0 ps-2" style="list-style: none;">
+							@foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+							{
+								<li>@error.ErrorMessage</li>
+							}
+						</ul>
+					</div>
+				}
+				<button type="submit" class="btn btn-primary w-100 py-2 rounded-pill fw-semibold">
+					Entrar
+				</button>
+			</form>
+			<div class="text-center mt-4">
+				<span class="text-secondary">Não possui conta?</span>
+				<a href="/User/Register" class="fw-semibold text-primary text-decoration-none ms-1">Cadastre-se</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}

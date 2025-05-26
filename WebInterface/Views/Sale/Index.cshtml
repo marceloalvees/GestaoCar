@@ -1,0 +1,186 @@
+﻿@model CreateSaleViewModel;
+@{
+	ViewData["Title"] = "Vendas";
+	var vehicles = ViewData["Vehicles"] as List<VehicleViewModel> ?? new List<VehicleViewModel>();
+	var dealerships = ViewData["Dealerships"] as List<DealershipViewModel> ?? new List<DealershipViewModel>();
+	var sales = ViewData["Sales"] as List<SaleViewModel> ?? new List<SaleViewModel>();
+}
+<body>
+	<div class="container py-5">
+		<div class="row justify-content-center mb-4">
+			<div class="col-lg-10">
+				<div class="card shadow border-0 card-radius">
+					<div class="card-body px-4 py-4">
+						<div class="d-flex align-items-center justify-content-between mb-3">
+							<h3 class="fw-bold mb-0 title-vendas">Vendas</h3>
+							<button type="button"
+									class="btn btn-primary rounded-pill fw-semibold d-flex align-items-center gap-2"
+									data-bs-toggle="modal" data-bs-target="#modalNovaVenda">
+								<i class="bi bi-plus-lg"></i> Realizar venda
+							</button>
+						</div>
+						<div class="table-responsive table-radius">
+							<table class="table table-hover align-middle">
+								<thead>
+									<tr>
+										<th>Veículo</th>
+										<th>Concessionária</th>
+										<th>Cliente</th>
+										<th>Data</th>
+										<th>Preço</th>
+									</tr>
+								</thead>
+								<tbody>
+									@{
+										if (sales != null && sales.Count > 0)
+										{
+											foreach (var s in sales)
+											{
+												<tr>
+													<td>@s.VehicleModel</td>
+													<td>@s.DealershipName</td>
+													<td>@s.CustomerName</td>
+													<td>@s.SaleDate.ToString("dd/MM/yyyy")</td>
+													<td>@s.SalePrice.ToString("C")</td>
+												</tr>
+											}
+										}
+										else
+										{
+											<tr>
+												<td colspan="6" class="text-center text-secondary py-4">
+													Nenhuma venda registrada.
+												</td>
+											</tr>
+										}
+									}
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal Nova Venda -->
+		<div class="modal fade" id="modalNovaVenda" tabindex="-1" aria-labelledby="modalNovaVendaLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content modal-radius">
+					<div class="modal-header border-0 pb-0">
+						<h5 class="modal-title text-primary fw-bold w-100 text-center" id="modalNovaVendaLabel">Realizar Nova Venda</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+					</div>
+					<div class="modal-body px-4">
+						<form asp-action="Create" asp-controller="Sale" method="post" id="formNovaVenda" autocomplete="off">
+							@Html.AntiForgeryToken()
+							<!-- Busca de Veículo -->
+							<div class="mb-3">
+								<label asp-for="VehicleName" class="form-label fw-semibold text-primary">Modelo do Veículo</label>
+								<select asp-for="VehicleName" class="form-select rounded-3" required>
+									<option value="">Selecione o Veículo</option>
+									@foreach (var veh in vehicles)
+									{
+										<option value="@veh.Model">@veh.Model (@veh.ManufacturerName)</option>
+									}
+								</select>
+								<span asp-validation-for="VehicleName" class="text-danger"></span>
+							</div>
+							<!-- Busca de Concessionária -->
+							<div class="mb-3">
+								<label asp-for="DealershipName" class="form-label fw-semibold text-primary"> Nomde da Conssecionária</label>
+								<select asp-for="DealershipName" class="form-select rounded-3" required>
+									<option value="">Selecione a Concessionária</option>
+									@foreach (var dea in dealerships)
+									{
+										<option value="@dea.Name">@dea.Name (@dea.City/@dea.State)</option>
+									}
+								</select>
+								<span asp-validation-for="DealershipName" class="text-danger"></span>
+							</div>
+							<!-- Dados do Cliente -->
+							<div class="mb-3">
+								<label asp-for="CustomerName" class="form-label fw-semibold text-primary">Nome completo do Comprador</label>
+								<input asp-for="CustomerName" type="text" class="form-control rounded-3" maxlength="100" required placeholder="Nome completo" />
+								<span asp-validation-for="CustomerName" class="text-danger"></span>
+							</div>
+							<div class="mb-3">
+								<label asp-for="CustomerCPF" class="form-label fw-semibold text-primary">CPF do Comprador</label>
+								<input asp-for="CustomerCPF" type="text" class="form-control rounded-3" maxlength="14" required placeholder="000.000.000-00" />
+								<span asp-validation-for="CustomerCPF" class="text-danger"></span>
+							</div>
+							<div class="mb-3">
+								<label asp-for="CustomerPhone" class="form-label fw-semibold text-primary">Telefone do Comprador</label>
+								<input asp-for="CustomerPhone" type="text" class="form-control rounded-3" maxlength="20" required placeholder="(11) 91234-5678" />
+								<span asp-validation-for="CustomerPhone" class="text-danger"></span>
+							</div>
+							<!-- Definição da Venda -->
+							<div class="mb-3">
+								<label asp-for="SaleDate" class="form-label fw-semibold text-primary">Data de venda</label>
+								<input asp-for="SaleDate" type="date" class="form-control rounded-3" required />
+								<span asp-validation-for="SaleDate" class="text-danger"></span>
+							</div>
+							<div class="mb-3">
+								<label asp-for="SalePrice" class="form-label fw-semibold text-primary">Valor da Venda</label>
+								<input asp-for="SalePrice" type="number" step="0.01" class="form-control rounded-3" min="0" required placeholder="R$" />
+								<span asp-validation-for="SalePrice" class="text-danger"></span>
+							</div>
+							<button type="submit" class="btn btn-primary w-100 py-2 rounded-pill fw-semibold mt-2 btn-save-venda">
+								Salvar
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	@section Scripts {
+		<script>
+			$(function () {
+				// Máscara CPF e telefone
+				$('#CustomerCPF').mask('000.000.000-00');
+				$('#CustomerPhone').mask('(00) 00000-0000');
+
+				// Validação CPF único (AJAX)
+				$('#CustomerCPF').on('blur', function () {
+					var cpf = $(this).val();
+					if (cpf.length === 14) {
+						$.get('/Customer/IsCpfUnique', { cpf: cpf }, function (data) {
+							if (!data.unique) {
+								$('#CustomerCPF').addClass('is-invalid');
+								alert('Este CPF já está cadastrado.');
+							} else {
+								$('#CustomerCPF').removeClass('is-invalid');
+							}
+						});
+					}
+				});
+
+				// Validação preço de venda não superior ao veículo
+				$('#SalePrice').on('input', function () {
+					var max = parseFloat($(this).attr('max'));
+					var val = parseFloat($(this).val());
+					if (max && val > max) {
+						$(this).val(max);
+						alert('O preço de venda não pode ser superior ao preço do veículo.');
+					}
+				});
+			});
+		</script>
+		@{
+			await Html.RenderPartialAsync("_ValidationScriptsPartial");
+		}
+	}
+</body>
+
+<style>
+	.title-vendas {
+		color: #004e64;
+	}
+
+	.btn-save-venda {
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+		border-radius: 50rem !important;
+		font-weight: 600;
+	}
+</style>

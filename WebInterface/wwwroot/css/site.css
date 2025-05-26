@@ -1,0 +1,139 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+body {
+    background: linear-gradient(120deg, #004e64 60%, #00587a 100%) fixed !important;
+    min-height: 100vh !important;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif !important;
+    background-attachment: fixed !important;
+}
+.text-primary {
+    --bs-text-opacity: 1;
+    color: #004e64 !important;
+}
+
+label {
+    color: 004e64;
+}
+
+.min-vh-100 {
+    min-height: 100vh !important;
+}
+
+.custom-card-width {
+    max-width: 480px;
+    width: 100%;
+    border-radius: 28px !important;
+    background: #fff;
+}
+
+.brand-title {
+    color: #004e64;
+}
+
+.car-icon {
+    font-size: 2.5rem;
+    color: #004e64;
+}
+
+.form-label {
+    margin-bottom: 0.2rem;
+}
+
+.form-control:focus {
+    border-color: #004e64;
+    box-shadow: 0 0 0 0.13rem #1b6ec239;
+}
+
+.btn-primary {
+    background: #004e64;
+    border: none;
+    transition: background 0.18s;
+}
+
+    .btn-primary:hover, .btn-primary:focus {
+        background: #004e64;
+    }
+
+.form-check-input:checked {
+    background-color: #004e64;
+    border-color: #004e64;
+}
+
+.forgot-link {
+    color: #004e64;
+}
+.card-radius {
+    border-radius: 22px !important;
+    background: #fff;
+}
+.modal-radius {
+    border-radius: 22px !important;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #004e64;
+    box-shadow: 0 0 0 0.13rem #1b6ec239;
+}
+
+.table thead th {
+    color: #004e64;
+    font-weight: 600;
+}
+
+.table-radius {
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.custom-alert {
+    border-radius: 1rem;
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    background: rgba(255, 0, 0, 0.06);
+    color: #B3261E;
+    border: none;
+    width: fit-content;
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .custom-alert i {
+        font-size: 1.3rem;
+        color: #B3261E;
+    }

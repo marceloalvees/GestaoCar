@@ -1,0 +1,78 @@
+﻿@{
+	ViewData["Title"] = "Acesso Negado";
+}
+
+<style>
+	.access-denied-container {
+		min-height: 80vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.card-modern {
+		border-radius: 1.5rem;
+		box-shadow: 0 4px 32px rgba(0, 78, 100, 0.08), 0 1.5px 10px rgba(0,0,0,0.04);
+		border: none;
+		padding: 2.5rem 2rem 2rem 2rem;
+		background: #fff;
+		max-width: 370px;
+		width: 100%;
+		text-align: center;
+	}
+
+	.access-svg {
+		width: 62px;
+		height: 62px;
+		margin-bottom: 1.3rem;
+	}
+
+	.access-title {
+		color: #004e64;
+		font-weight: 700;
+		font-size: 1.7rem;
+		margin-bottom: 0.7rem;
+	}
+
+	.access-msg {
+		color: #374151;
+		margin-bottom: 2rem;
+		font-size: 1.08rem;
+	}
+
+	.btn-login-modern {
+		background: #004e64;
+		color: #fff;
+		border-radius: 2rem;
+		font-weight: 600;
+		box-shadow: 0 1.5px 8px rgba(0,78,100,0.06);
+		padding: 0.65rem 1.8rem;
+		letter-spacing: .01em;
+		border: none;
+		transition: background 0.18s;
+	}
+
+	.btn-login-modern:hover, .btn-login-modern:focus {
+		background: #008c99;
+		color: #fff;
+		text-decoration: none;
+	}
+</style>
+
+<div class="access-denied-container">
+	<div class="card-modern">
+		<svg class="access-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48">
+			<circle cx="24" cy="24" r="23" fill="#e0f7fa" stroke="#004e64" stroke-width="2" />
+			<path d="M24 15v10" stroke="#004e64" stroke-width="2.8" stroke-linecap="round" />
+			<circle cx="24" cy="31" r="1.8" fill="#004e64" />
+		</svg>
+		<div class="access-title">Acesso Negado</div>
+		<div class="access-msg">
+			Desculpe, você não tem permissão para acessar esta página.<br>
+			Por favor, faça login com uma conta autorizada.
+		</div>
+		<a class="btn btn-login-modern" asp-area="" asp-controller="User" asp-action="Logout">
+			<i class="bi bi-box-arrow-in-right me-1"></i> Entrar
+		</a>
+	</div>
+</div>

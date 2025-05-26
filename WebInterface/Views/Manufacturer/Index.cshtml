@@ -1,0 +1,139 @@
+﻿@{
+	ViewData["Title"] = "Fabricantes";
+	var manufacturers = ViewData["Manufacturers"] as List<ManufacturerViewModel> ?? new List<ManufacturerViewModel>();
+	@model ManufacturerViewModel
+}
+<body>
+	<div class="container py-5">
+		<div class="row justify-content-center mb-4">
+			<div class="col-lg-8">
+				<div class="card shadow border-0 card-radius">
+					<div class="card-body px-4 py-4">
+						<div class="d-flex align-items-center justify-content-between mb-3">
+							<h3 class="fw-bold mb-0 title-fabricante">Fabricantes</h3>
+							<button class="btn btn-primary rounded-pill fw-semibold d-flex align-items-center gap-2"
+									data-bs-toggle="modal" data-bs-target="#modalNovoFabricante">
+								<i class="bi bi-plus-lg"></i> Adicionar novo
+							</button>
+						</div>
+						@if (ViewData["Success"] != null || TempData["Success"] != null)
+						{
+							<div class="custom-alert alert-success mb-3 d-flex align-items-center gap-2">
+								<i class="bi bi-check-circle-fill"></i>
+								<span>@(ViewData["Success"] ?? TempData["Success"])</span>
+							</div>
+						}
+						@if (ViewData["Error"] != null || TempData["Error"] != null)
+						{
+							<div class="custom-alert alert-danger mb-3 d-flex align-items-center gap-2">
+								<i class="bi bi-exclamation-circle-fill"></i>
+								<span>@(ViewData["Error"] ?? TempData["Error"])</span>
+							</div>
+						}
+						<div class="table-responsive table-radius">
+							<table class="table table-hover align-middle">
+								<thead>
+									<tr>
+										<th>Nome</th>
+										<th>País</th>
+										<th>Ano Fundação</th>
+										<th>URL</th>
+									</tr>
+								</thead>
+								<tbody>
+									@{
+										// Quando houver uma lista, descomente e preencha assim:
+
+										if (manufacturers != null && manufacturers.Count > 0)
+										{
+											foreach (var man in manufacturers)
+											{
+												<tr>
+													<td>@man.Name</td>
+													<td>@man.Country</td>
+													<td>@man.FoundationYear</td>
+													<td>
+														<a href="@man.Website" target="_blank" class="text-primary text-decoration-underline">
+															@man.Website
+														</a>
+													</td>
+												</tr>
+											}
+										}
+										else
+										{
+
+											<tr>
+												<td colspan="4" class="text-center text-secondary py-4">
+													Nenhum fabricante cadastrado.
+												</td>
+											</tr>
+										}
+									}
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal Novo Fabricante -->
+		<div class="modal fade" id="modalNovoFabricante" tabindex="-1" aria-labelledby="modalNovoFabricanteLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content modal-radius">
+					<div class="modal-header border-0 pb-0">
+						<h5 class="modal-title text-primary fw-bold w-100 text-center" id="modalNovoFabricanteLabel">Adicionar Fabricante</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+					</div>
+					<div class="modal-body px-4">
+						<form asp-action="Create" asp-controller="Manufacturer" method="post" id="formNovoFabricante" autocomplete="off">
+							@Html.AntiForgeryToken()
+							<div class="mb-3">
+								<label for="Name" class="form-label fw-semibold text-primary">Nome</label>
+								<input asp-for="Name" type="text" class="form-control rounded-3" id="nome" maxlength="100" required placeholder="Digite o nome do fabricante" />
+								<span asp-validation-for="Name" class="text-danger"></span>
+							</div>
+							<div class="mb-3">
+								<label for="Country" class="form-label fw-semibold text-primary">País</label>
+								<input asp-for="Country" type="text" class="form-control rounded-3" id="pais" maxlength="60" required placeholder="Digite o país" />
+								<span asp-validation-for="Country" class="text-danger"></span>
+							</div>
+							<div class="mb-3">
+								<label for="FoundationYear" class="form-label fw-semibold text-primary">Ano de Fundação</label>
+								<input asp-for="FoundationYear" type="number" class="form-control rounded-3" id="ano" min="1800" max="@DateTime.Now.Year" required placeholder="Ex: 1976" />
+								<span asp-validation-for="FoundationYear" class="text-danger"></span>
+							</div>
+							<div class="mb-3">
+								<label for="Website" class="form-label fw-semibold text-primary">URL</label>
+								<input asp-for="Website" type="url" class="form-control rounded-3" id="url" maxlength="200" required placeholder="https://site.com" />
+								<span asp-validation-for="Website" class="text-danger"></span>
+							</div>
+							<button type="submit" class="btn btn-primary w-100 py-2 rounded-pill fw-semibold mt-2 btn-save-fabricante">
+								Salvar
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		@section Scripts {
+			@{
+				await Html.RenderPartialAsync("_ValidationScriptsPartial");
+			}
+		}
+	</div>
+</body>
+
+<style>
+	.title-fabricante {
+		color: #004e64;
+	}
+
+	.btn-save-fabricante {
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+		border-radius: 50rem !important;
+		font-weight: 600;
+	}
+</style>
