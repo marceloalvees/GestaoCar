@@ -314,3 +314,4 @@ C:\Users\TGT\Pessoal project\Intelectah\GestaoCar\WebInterface\bin\Debug\net9.0\
 C:\Users\TGT\Pessoal project\Intelectah\GestaoCar\WebInterface\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\TGT\Pessoal project\Intelectah\GestaoCar\WebInterface\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\TGT\Pessoal project\Intelectah\GestaoCar\WebInterface\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\TGT\Pessoal project\Intelectah\GestaoCar\WebInterface\obj\Debug\net9.0\WebInterface.sourcelink.json

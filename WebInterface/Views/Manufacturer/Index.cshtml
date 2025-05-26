@@ -16,20 +16,6 @@
 								<i class="bi bi-plus-lg"></i> Adicionar novo
 							</button>
 						</div>
-						@if (ViewData["Success"] != null || TempData["Success"] != null)
-						{
-							<div class="custom-alert alert-success mb-3 d-flex align-items-center gap-2">
-								<i class="bi bi-check-circle-fill"></i>
-								<span>@(ViewData["Success"] ?? TempData["Success"])</span>
-							</div>
-						}
-						@if (ViewData["Error"] != null || TempData["Error"] != null)
-						{
-							<div class="custom-alert alert-danger mb-3 d-flex align-items-center gap-2">
-								<i class="bi bi-exclamation-circle-fill"></i>
-								<span>@(ViewData["Error"] ?? TempData["Error"])</span>
-							</div>
-						}
 						<div class="table-responsive table-radius">
 							<table class="table table-hover align-middle">
 								<thead>
@@ -42,8 +28,6 @@
 								</thead>
 								<tbody>
 									@{
-										// Quando houver uma lista, descomente e preencha assim:
-
 										if (manufacturers != null && manufacturers.Count > 0)
 										{
 											foreach (var man in manufacturers)
