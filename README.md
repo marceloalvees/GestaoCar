@@ -130,7 +130,7 @@ Relacionamentos com chaves estrangeiras, integridade referencial e exclusões l�
 
 1. **Clonar o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/seu-usuario/seu-repositorio.git](https://github.com/marceloalvees/GestaoCar)
    ```
 2. **Restaurar dependências:**
    ```bash
