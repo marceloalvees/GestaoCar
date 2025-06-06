@@ -165,12 +165,6 @@ Relacionamentos com chaves estrangeiras, integridade referencial e exclusões l�
 
 ---
 
-## 📦 Publicação
-
-O projeto deve ser publicado em um repositório público no GitHub com instruções detalhadas neste README.
-
----
-
 ## 📊 Possíveis Extensões
 
 - Diagramas de camadas, ER, fluxo de vendas (solicite se desejar!)
